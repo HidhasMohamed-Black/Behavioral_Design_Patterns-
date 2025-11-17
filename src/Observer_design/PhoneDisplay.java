@@ -1,3 +1,5 @@
+package Observer_design;
+
 public class PhoneDisplay implements Observer {
     @Override
     public void update(float temperature, float humidity) {
